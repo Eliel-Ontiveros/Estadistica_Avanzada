@@ -23,15 +23,15 @@ confidence_interval = (mean_difference - margin_error, mean_difference + margin_
 
 plt.figure(figsize=(12, 6))
 plt.subplot(1, 2, 1)
-plt.hist(male_heights, bins=10, alpha=0.5, color='blue', label='Hombres')
-plt.hist(female_heights, bins=10, alpha=0.5, color='red', label='Mujeres')
+plt.hist(male_heights, bins=10, alpha=0.5, color='gray', label='Hombres')
+plt.hist(female_heights, bins=10, alpha=0.5, color='brown', label='Mujeres')
 plt.title('Histograma de Alturas')
 plt.xlabel('Altura (cm)')
 plt.ylabel('Frecuencia')
 plt.legend()
 plt.subplot(1, 2, 2)
 plt.bar(['Diferencia de Medias'], [mean_difference],
-        yerr=margin_error, color='green', alpha=0.7)
+        yerr=margin_error, color='red', alpha=0.7)
 plt.title('Diferencia de Medias con Intervalo de Confianza')
 plt.xlabel('Diferencia de Medias')
 plt.ylabel('Intervalo de Confianza')
