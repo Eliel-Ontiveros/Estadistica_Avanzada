@@ -6,5 +6,5 @@ total_houses = 500
 
 conf_interval = proportion_confint(count=count_houses_with_tv, nobs=total_houses, alpha=0.1, method='normal')
 
-print("90% confidence interval for the proportion of houses with 2 or more TVs:")
+print("90% intervalo de confianza por la proporcion de casas con 2 o mas televisores:")
 print(conf_interval)

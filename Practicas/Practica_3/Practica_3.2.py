@@ -16,5 +16,5 @@ confidence_interval = (
     sample_mean + critical_value * standard_error_mean
 )
 
-print(f"{confidence_level * 100}% confidence interval for the mean depth:")
+print(f"{confidence_level * 100}% intervalo de confianza por la medida de la media:")
 print(f"({confidence_interval[0]:.5f}, {confidence_interval[1]:.5f}) inches")

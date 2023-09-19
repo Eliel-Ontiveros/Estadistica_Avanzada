@@ -16,5 +16,5 @@ confidence_interval = (
     population_mean + critical_value * standard_error_mean
 )
 
-print(f"{confidence_level * 100}% confidence interval for the mean price:")
-print(f"(${confidence_interval[0]:.2f}, ${confidence_interval[1]:.2f}) per kilogram")
+print(f"{confidence_level * 100}% intervalo de confianza por la media del precio:")
+print(f"(${confidence_interval[0]:.2f}, ${confidence_interval[1]:.2f})")
