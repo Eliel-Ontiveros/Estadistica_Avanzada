@@ -7,9 +7,9 @@ datos = pandas.read_csv("cars.csv")
 
 datos.columns
 datos.shape
-x = datos[[ 'Weight' , 'volume' ]]
+x = datos[[ 'Weight' , 'Volume' ]]
 
-y = datos['co2']
+y = datos['CO2']
 
 regr = linear_model.LinearRegression()
 
@@ -24,5 +24,5 @@ print('intercept:', regr.intercept_)
 #
 print('slope:', regr.coef_)
 
-predictedco2 = regr.predict([[2300, 1300]])
-print("Valor predicho", predictedco2)
+predictedCo2 = regr.predict([[2300, 1300]])
+print("Valor predicho", predictedCo2)
