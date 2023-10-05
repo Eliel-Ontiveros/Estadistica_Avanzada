@@ -26,3 +26,5 @@ print('slope:', regr.coef_)
 
 predictedCo2 = regr.predict([[2300, 1300]])
 print("Valor predicho", predictedCo2)
+
+#Crear una tabla con la información que se me solicita
